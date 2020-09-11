@@ -6,4 +6,6 @@ view the plan -------> terraform plan
 
 create infra -----> terraform apply
 
+comments part in terraform code ----> /*     comments go here */
+
 
