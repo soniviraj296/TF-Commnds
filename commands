@@ -4,6 +4,6 @@ install provider plugin -------> terraform init
 
 view the plan -------> terraform plan
 
-cerate infra -----> terraform apply
+create infra -----> terraform apply
 
 
