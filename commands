@@ -8,4 +8,6 @@ create infra -----> terraform apply
 
 comments part in terraform code ----> /*     comments go here */
 
+to see state file and view -----> terraform show
+
 
