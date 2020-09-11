@@ -1,2 +1,9 @@
 Destroy specific resource command --------> terraform destroy -target resourcename.usergivenresourcename 
 
+install provider plugin -------> terraform init
+
+view the plan -------> terraform plan
+
+cerate infra -----> terraform apply
+
+
