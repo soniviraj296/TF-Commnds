@@ -10,4 +10,6 @@ comments part in terraform code ----> /*     comments go here */
 
 to see state file and view -----> terraform show
 
+use varibale explicit ------> terraform plan -var="instacetype=t2.micro"
+
 
