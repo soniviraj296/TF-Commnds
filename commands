@@ -34,3 +34,5 @@ varible "varibalename"
 {
 type = string
 }
+
+varibale type : List,string, Map {name="viraj", cell=122445646}
