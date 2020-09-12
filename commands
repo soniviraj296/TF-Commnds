@@ -1,40 +1,40 @@
-Destroy specific resource command --------> terraform destroy -target resourcename.usergivenresourcename 
+1) Destroy specific resource command --------> terraform destroy -target resourcename.usergivenresourcename 
 
-install provider plugin -------> terraform init
+2) install provider plugin -------> terraform init
 
-view the plan -------> terraform plan
+3) view the plan -------> terraform plan
 
-create infra -----> terraform apply
+4) create infra -----> terraform apply
 
-comments part in terraform code ----> /*     comments go here */
+5) comments part in terraform code ----> /*     comments go here */
 
-to see state file and view -----> terraform show
+6) to see state file and view -----> terraform show
 
-use varibale explicit ------> terraform plan -var="instacetype=t2.micro"
+7) use varibale explicit ------> terraform plan -var="instacetype=t2.micro"
 
-varibles.tf -----> to mention  all variable in a file 
+8) varibles.tf -----> to mention  all variable in a file 
 
-terraform.tfvars---> store all common variables used in variables.tf
+9) terraform.tfvars---> store all common variables used in variables.tf
 
-set veriable in window and linxu to use default values --->  
+10) set veriable in window and linxu to use default values --->  
                 
                 setx TF_VAR_variablename
                  
                 setx TF_VAR_instancetype t2.micro
                 
                 
-print the set variable -------> 
+11) print the set variable -------> 
   
             echp %TF_VAR_instancetype%
             
    output ----> t2.micro
 
 
-varible "varibalename" 
+12) varible "varibalename" 
 {
 type = string
 }
 
-varibale type : List,string, Map {name="viraj", cell=122445646}
+13) varibale type : List,string, Map {name="viraj", cell=122445646}
 
-${count.index}----> 0,1,2.....
+14) ${count.index}----> 0,1,2.....
