@@ -29,3 +29,8 @@ print the set variable ------->
             
    output ----> t2.micro
 
+
+varible "varibalename" 
+{
+type = string
+}
