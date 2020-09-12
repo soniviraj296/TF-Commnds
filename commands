@@ -16,3 +16,9 @@ varibles.tf -----> to mention  all variable in a file
 
 terraform.tfvars---> store all common variables used in variables.tf
 
+set veriable in window and linxu to use default values --->  
+                
+                setx TF_VAR_variablename
+                 
+                setx TF_VAR_instancetype t2.micro
+
