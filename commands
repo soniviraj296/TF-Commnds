@@ -12,4 +12,7 @@ to see state file and view -----> terraform show
 
 use varibale explicit ------> terraform plan -var="instacetype=t2.micro"
 
+varibles.tf -----> to mention  all variable in a file 
+
+terraform.tfvars---> store all common variables used in variables.tf
 
