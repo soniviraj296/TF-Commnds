@@ -38,3 +38,5 @@ type = string
 13) varibale type : List,string, Map {name="viraj", cell=122445646}
 
 14) ${count.index}----> 0,1,2.....
+
+15) conditional expression syntax -----> condition ? true_val : false_val
