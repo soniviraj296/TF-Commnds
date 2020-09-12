@@ -21,4 +21,11 @@ set veriable in window and linxu to use default values --->
                 setx TF_VAR_variablename
                  
                 setx TF_VAR_instancetype t2.micro
+                
+                
+print the set variable -------> 
+  
+            echp %TF_VAR_instancetype%
+            
+   output ----> t2.micro
 
