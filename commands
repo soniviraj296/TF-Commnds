@@ -43,4 +43,19 @@ type = string
 
      example : variable "istest"{}
      
+ 16) local declaration in Terraform script 
+ 
+   example: 
    
+   locals {
+      common_tags = {
+      owner = "devops team"
+      } 
+   }
+     
+   resource "aws_insatnce" "virajec2"
+ 
+ {
+ ami=i-12234
+ tags=local-common_tags
+ }
