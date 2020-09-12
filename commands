@@ -40,3 +40,7 @@ type = string
 14) ${count.index}----> 0,1,2.....
 
 15) conditional expression syntax -----> condition ? true_val : false_val
+
+     example : variable "istest"{}
+     
+   
