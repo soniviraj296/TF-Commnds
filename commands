@@ -57,5 +57,5 @@ type = string
  
  {
  ami=i-12234
- tags=local-common_tags
+ tags=local.common_tags
  }
