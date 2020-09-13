@@ -74,16 +74,24 @@ export TF_LOG=/tmp/terraform-log
 
 21) ~ means update in TF Files
 
-22) terraform output extract the values ---> terraform output resourcename
+22) 3 types of provisioners 
+      -----> file  copy file from one src to destination 
+      ------> local The local-exec provisioner invokes a local executable after a resource is created. 
+      ---> remote The remote-exec provisioner invokes a script on a remote resource after it is created. 
+            This can be used to run a configuration management tool, bootstrap into a cluster, etc. 
+            To invoke a local process, see the local-exec provisioner instead. 
+           The remote-exec provisioner supports both ssh and winrm type connections.
+
+23) terraform output extract the values ---> terraform output resourcename
 
       splat expression [*] will be used 
       
-23) save the terraforn plan ------> terraform plan -out=virajdemo
+24) save the terraforn plan ------> terraform plan -out=virajdemo
 
-24) visual represantation ----------> terraform graph (DOT format)
+25) visual represantation ----------> terraform graph (DOT format)
 
-25) taint will destroy the resource and re create it again --> terraform taint
+26) taint will destroy the resource and re create it again --> terraform taint
 
-26) dynamic block will be creating for repetative values(itertors)
+27) dynamic block will be creating for repetative values(itertors)
 
   for_each keyword
