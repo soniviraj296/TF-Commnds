@@ -83,3 +83,5 @@ export TF_LOG=/tmp/terraform-log
 24) visual represantation ----------> terraform graph (DOT format)
 
 25) taint will destroy the resource and re create it again --> terraform taint
+
+26) dynamic block will be creating for repetative values
