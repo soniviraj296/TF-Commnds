@@ -95,3 +95,13 @@ export TF_LOG=/tmp/terraform-log
 27) dynamic block will be creating for repetative values(itertors)
 
   for_each keyword
+  
+28) terraform workspace show -----> show current workspace (default)
+
+29) terraform workspace list ---> list all workspace
+
+30) terraform workspace dev------> move to to dev workspace
+
+31) terraform workspace new workspacename ------> create new workspace
+
+32) terraform workspace select dev -----> move to dev directory
